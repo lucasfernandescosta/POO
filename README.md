@@ -15,3 +15,28 @@ R: A programação orientada a objetos tem como principais objetivos reduzir a c
 
 **5- O que é abstração? Cite um exemplo.**<br />
 R: É um processo pelo qual se isolam características de um objeto, considerando os que tenham em comum certos grupos de objetos, a abstração mostra que não devemos nos preocupar com características menos importantes, apenas nos aspectos essenciais, facilitando com um contexto inicial modelar necessidades especificas. Um exemplo de abstração é se uma fabrica de cadeiras fosse representar os produtos que ela já fabrica ou que fabricará, ela pode pensar inicialmente em uma cadeira de forma mais básica (abstrata), com isso seu processo de produção seria facilitado, pois, a partir dessa forma poderia ser fabricado formas especificas (cadeira de praia, cadeira de avião, etc.).
+
+**6- O que é classe ?**<br />
+R: Uma classe descreve os serviços oferecidos por seus objetos e quais informações eles podem armazenar. Ou seja, o objetivo de uma classe é definir, servir de base, para o que futuramente será o objeto. É através dela que criamos o "molde" aos quais os objetos deverão seguir. Este "molde" definirá quais informações serão trabalhadas e como elas serão manipuladas. 
+
+**7- Qual é o padrão utilizado para nomear as classes? Cite um exemplo.**<br />
+R:
+
+**8- Qual opção apresenta corretamente o nome da classe carro elétrico?**<br />
+**1. carroeletrico<br /> **
+**2. carroEletrico<br /> **
+**3. Carroeletrico<br /> **
+**4. CarroEletrico<br />** 
+**5. carro eletrico**
+R:
+
+
+
+
+
+
+
+
+
+
+
