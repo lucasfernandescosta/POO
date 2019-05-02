@@ -23,9 +23,9 @@ R: Uma classe descreve os serviços oferecidos por seus objetos e quais informa�
 R:
 
 **8- Qual opção apresenta corretamente o nome da classe carro elétrico?**<br />
-**1. carroeletrico **<br />
-**2. carroEletrico **<br />
-**3. Carroeletrico **<br />
+__1. carroeletrico __ <br />
+**2. carroEletrico ** <br />
+**3. Carroeletrico ** <br />
 **4. CarroEletrico** <br />
 **5. carro eletrico**<br />
 R:
