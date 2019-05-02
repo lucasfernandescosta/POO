@@ -52,6 +52,7 @@ R:
 5. Estavazio <br />
 6. Esta vazio<br />
 R:
+<br />
 **13.	No contexto de orientação à objetos, o que é um objeto? Em que momento existe um objeto? Quando ele deixa de existir?**<br />
 R:
 
