@@ -43,7 +43,7 @@ R: Devem iniciar com minúscula. Palavras internas começam com letras maiúscul
 R:3
 
 **11.	Qual é o padrão utilizado para nomear os métodos? Cite um exemplo.**<br />
-R:
+R:Métodos devem ser verbos, com a letra minúscula em primeiro lugar, com a primeira letra de cada palavra interna em maiúscula. Exemplo: calcularAlgo()
 
 **12.	Qual opção apresenta corretamente o nome do método está vazio? **<br />
 1. estaVazio  <br />
@@ -52,14 +52,14 @@ R:
 4. EstaVazio <br />
 5. Estavazio <br />
 6. Esta vazio<br />
-R:
+R:1
 <br />
 
 **13.	No contexto de orientação à objetos, o que é um objeto? Em que momento existe um objeto? Quando ele deixa de existir?**<br />
-R:
+R: Um objeto é a representação de um conceito/entidade do mundo real, que pode ser física (bola, carro, árvore etc.) ou conceitual (viagem, estoque, compra etc.) e possui um significado bem definido para um determinado software. Para este conceito/entidade, deve ser definida inicialmente uma classe a partir da qual posteriormente serão instanciados objetos distintos.
 
 **14.	Qual é o objetivo do operador new?**<br />
-R:
+R: new é utilizado para criar uma nova instância de uma determinada classe, o new faz com que a máquina virtual aloque memória para armazenar um novo objeto
 
 **15.	O que é o construtor? Qual é o seu objetivo? Qual deve ser o seu nome? Cite um exemplo.**<br />
 R:
@@ -71,7 +71,7 @@ R:
 R:
 
 **18.	O que é encapsulamento?**<br />
-R:
+R: Encapsulamento é a técnica que faz com que detalhes internos do funcionamento dos métodos de uma classe permaneçam ocultos para os objetos. Uma vantagem deste princípio é que as mudanças se tornam transparentes
 
 **19.	Qual é o objetivo do modificador de acesso public?**<br />
 R:
