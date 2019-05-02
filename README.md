@@ -62,7 +62,7 @@ R: Um objeto é a representação de um conceito/entidade do mundo real, que pod
 R: new é utilizado para criar uma nova instância de uma determinada classe, o new faz com que a máquina virtual aloque memória para armazenar um novo objeto
 
 **15.	O que é o construtor? Qual é o seu objetivo? Qual deve ser o seu nome? Cite um exemplo.**<br />
-R:
+R: O construtor é um método especial. O construtor é responsável por criar objetos a partir da classe em questão, sempre que for necessário criar objetos de uma determinada classe, o construtor deverá ser utilizado. O nome deve ser igual ao da classe e sem retorno, pode ou não ter parâmetros. Exemplo: Carro () {//o que deseja na construção do objeto}
 
 **16.	Caso o construtor da classe Aluno não for declarado, qual será o seu construtor?**<br />
 R:
