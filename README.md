@@ -45,12 +45,12 @@ R:
 **11.	Qual é o padrão utilizado para nomear os métodos? Cite um exemplo.**<br />
 R:
 **12.	Qual opção apresenta corretamente o nome do método está vazio? **<br />
-1. estaVazio  
-2. estaVazio 
-3. estavazio 
-4. EstaVazio 
-5. Estavazio 
-6. Esta vazio
+1. estaVazio  <br />
+2. estaVazio <br />
+3. estavazio <br />
+4. EstaVazio <br />
+5. Estavazio <br />
+6. Esta vazio<br />
 R:
 **13.	No contexto de orientação à objetos, o que é um objeto? Em que momento existe um objeto? Quando ele deixa de existir?**<br />
 R:
