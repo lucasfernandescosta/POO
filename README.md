@@ -20,7 +20,7 @@ R: É um processo pelo qual se isolam características de um objeto, considerand
 R: Uma classe descreve os serviços oferecidos por seus objetos e quais informações eles podem armazenar. Ou seja, o objetivo de uma classe é definir, servir de base, para o que futuramente será o objeto. É através dela que criamos o "molde" aos quais os objetos deverão seguir. Este "molde" definirá quais informações serão trabalhadas e como elas serão manipuladas. 
 
 **7- Qual é o padrão utilizado para nomear as classes? Cite um exemplo.**<br />
-R:
+R: Toda classe deve começar com uma letra maiúscula, não pode conter letras não ASCII, caso composto por mais de uma palavra, a primeira letra de cada palavra deve ser maiúscula, O nome da classe deve fazer referência total ao seu objeto. Exemplo: ImpostoDeRenda.
 
 **8- Qual opção apresenta corretamente o nome da classe carro elétrico?**<br />
 1. carroeletrico <br />
@@ -28,19 +28,19 @@ R:
 3. Carroeletrico  <br />
 4. CarroEletrico <br />
 5. carro eletrico <br />
-R:
+R:4
 
 **9.	Qual é o padrão utilizado para nomear os atributos? Cite um exemplo.**<br />
-R:
+R: Devem iniciar com minúscula. Palavras internas começam com letras maiúsculas. Não deve começar com underline ou $, mesmo que ambos sejam permitidos. Exemplo: quantPatas
 
 **10.	Qual opção apresenta corretamente o nome do atributo cor de fundo?**<br />
 1. CordeFundo<br /> 
 2. CorDeFundo <br />
 3. corDeFundo <br />
-4. cor de fundo <br />
-5. corDeFundo <br />
+4. _cor_de_fundo <br />
+5. _corDeFundo <br />
 6. mCorDeFundo<br />
-R:
+R:3
 
 **11.	Qual é o padrão utilizado para nomear os métodos? Cite um exemplo.**<br />
 R:
