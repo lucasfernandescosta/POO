@@ -56,7 +56,7 @@ R:1
 <br />
 
 **13.	No contexto de orientação à objetos, o que é um objeto? Em que momento existe um objeto? Quando ele deixa de existir?**<br />
-R: Um objeto é a representação de um conceito/entidade do mundo real, que pode ser física (bola, carro, árvore etc.) ou conceitual (viagem, estoque, compra etc.) e possui um significado bem definido para um determinado software. Para este conceito/entidade, deve ser definida inicialmente uma classe a partir da qual posteriormente serão instanciados objetos distintos.
+R: Um objeto é a representação de um conceito/entidade do mundo real, que pode ser física (bola, carro, árvore etc.) ou conceitual (viagem, estoque, compra etc.) e possui um significado bem definido para um determinado software. Para este conceito/entidade, deve ser definida inicialmente uma classe a partir da qual posteriormente serão instanciados objetos distintos. O objeto deixa de exixstir ou seja é destruido quando não é mais utilizado ou não necessário no contexto.
 
 **14.	Qual é o objetivo do operador new?**<br />
 R: new é utilizado para criar uma nova instância de uma determinada classe, o new faz com que a máquina virtual aloque memória para armazenar um novo objeto
@@ -65,34 +65,45 @@ R: new é utilizado para criar uma nova instância de uma determinada classe, o 
 R: O construtor é um método especial. O construtor é responsável por criar objetos a partir da classe em questão, sempre que for necessário criar objetos de uma determinada classe, o construtor deverá ser utilizado. O nome deve ser igual ao da classe e sem retorno, pode ou não ter parâmetros. Exemplo: Carro () {//o que deseja na construção do objeto}
 
 **16.	Caso o construtor da classe Aluno não for declarado, qual será o seu construtor?**<br />
-R:
+R:O seu construtor vai ser o padrão do Java
 
 **17.	Crie um exemplo de instanciação da classe Aluno. Utilize o construtor padrão.**<br />
-R:
+R: Aluno aluno = new Aluno();
 
 **18.	O que é encapsulamento?**<br />
 R: Encapsulamento é a técnica que faz com que detalhes internos do funcionamento dos métodos de uma classe permaneçam ocultos para os objetos. Uma vantagem deste princípio é que as mudanças se tornam transparentes
 
 **19.	Qual é o objetivo do modificador de acesso public?**<br />
-R:
+R:Uma declaração com o modificador public pode ser acessada de qualquer lugar e por qualquer entidade que possa visualizar a classe a que ela pertence.
 
 **20.	Qual é o objeto do modificador de acesso private?**<br />
-R:
+R:Os membros da classe definidos como não podem ser acessados ou usados por nenhuma outra classe. Esses atributos e métodos também não podem ser visualizados pelas classes herdadas.
 
 **21.	Como é aplicado o encapsulamento em uma classe? Considere a classe Aluno com o atributo matrícula.**<br />
-R:
+R:public class Aluno {
+  private long matricula;
+}
 
 **22.	Qual é o objetivo dos métodos getters? Crie um exemplo.**<br />
-R:
+R: Os métodos getters tem como objetivo acessar e chamar o método private
+  public String getNome() {
+        return nome;
+    }
 
 **23.	Qual o objetivo dos métodos setters? Crie um exemplo.**<br />
-R:
-
+R:Os métodos setters tem como objetivo acessar e altarar o métodos private
+  public void setNome(String nome) {
+        this.nome = nome;
+    }
 **24.	O diagrama de classe UML é composto por 3 partes. O que vai em cada parte?**<br />
-R:
-
+R:Nome:Será informado o nome da classe
+  Atributos:Será informado os atributos da classe
+  Métodos:Será informado os métodos da classe
 **25.	Qual é o padrão utilizado para representar um atributo no diagrama de classe UML? Crie um exemplo.**<br />
-R:
+R:É utilizado o nome dos atributos e qual tipo de variável é esse atributo.
+Exemplo:marca:String
+        ano:Int
+        placa:Int
 
 **26.	Qual é o padrão utilizado para representar um método no diagrama de classe UML? Crie um exemplo.**<br />
 R:
