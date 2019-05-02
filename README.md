@@ -30,7 +30,7 @@ R:
 5. carro eletrico <br />
 R:
 
-**9.	Qual ´e o padrão utilizado para nomear os atributos? Cite um exemplo.**<br />
+**9.	Qual é o padrão utilizado para nomear os atributos? Cite um exemplo.**<br />
 R:
 
 **10.	Qual opção apresenta corretamente o nome do atributo cor de fundo?**<br />
@@ -44,6 +44,7 @@ R:
 
 **11.	Qual é o padrão utilizado para nomear os métodos? Cite um exemplo.**<br />
 R:
+
 **12.	Qual opção apresenta corretamente o nome do método está vazio? **<br />
 1. estaVazio  <br />
 2. estaVazio <br />
@@ -53,6 +54,7 @@ R:
 6. Esta vazio<br />
 R:
 <br />
+
 **13.	No contexto de orientação à objetos, o que é um objeto? Em que momento existe um objeto? Quando ele deixa de existir?**<br />
 R:
 
