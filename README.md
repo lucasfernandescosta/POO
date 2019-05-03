@@ -109,17 +109,106 @@ Exemplo:marca:String
 R: +tipo(public,private,etc.) verbo () 
     +getPessoa()
 **27.	Como o construtor de uma classe pode ser diferenciado no diagrama de classe UML? Crie um exemplo.**<br />
-R: C
+R: <<create>>, exemplo: Cliente(): <<create>>
 
 **28.	Quais são os símbolos utilizados no diagrama de classe UML para representar os modificadores de acessos aos atributos e métodos? Crie um exemplo.**<br />
-R:
+R: "+" public "-" private
+ex: <<crete>> -Pessoa(nome:String, altura:Float):
 
 **29.	Considere a classe Cliente, com os atributos nome, email e telefone com os respectivos métodos getters e setters. Desenvolva o diagrama de classe UML.**<br />
-R:
+R:  
+     Cliente
+    ---------------------------
+    -nome:String
+    -email:String
+    -telefone:long
+    ----------------------------
+    +getNome():String
+    +setNome(nome:String)
+    +getEmail():String
+    +setEmail(email:String)
+    +getTelefone():long
+    +setTelefone(telefone:long)
+    ----------------------------
+    
 
 **30.	Considere a classe Cliente apresentada no Problema 29, e desenvolva o código Java correspondente.**<br />
-R:
-
+R:  
+```java
+public class Cliente{
+  private String nome;
+  private String email;
+  private long telefone;
+  
+  public Cliente(){
+      this.nome="kaue";
+      this.email="kaue@gmail.com";
+      this.telefone=33334444;
+  }
+  public String getNome(){
+    return nome;
+  }
+  public void setNome (String nome){
+    this.nome = nome
+  }
+  public String getEmail(){
+    return email;
+  }
+  public void setEmail (String email){
+    this.email = email
+  }
+  public long getTelefone(){
+    return telefone;
+  }
+  public void setTelefone (String telefone){
+    this.telefone =telefone
+  }
+}
+```
+**31. Desenvolva o código java das classes do apresentadas no diagrama de classes
+UML abaixo:**
+R:public class Produto{
+  private String nome;
+  
+  public Produto(){
+    this.nome="kaue";
+  }
+  public String getNome(){
+    return nome;
+  }
+  public void setNome (String nome){
+    this.nome = nome
+  }
+  
+}
+------------------------------------
+public class Password{
+  private String value;
+  
+  public Password(){
+    this.value="kaue";
+  }
+  public boolean isEqual(Password p){
+    return false;
+  }
+  
+}
+---------------------------------------
+public class Animal{
+  private boolean alive;
+  
+  public Animal(){
+    this.alive= true;
+  }
+  public boolean isAlive(){
+    return false;
+    }
+  
+    private void die(){
+  }
+  
+  }
+-------------------------------------
 
 
 
