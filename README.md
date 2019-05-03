@@ -106,10 +106,10 @@ Exemplo:marca:String
         placa:Int
 
 **26.	Qual é o padrão utilizado para representar um método no diagrama de classe UML? Crie um exemplo.**<br />
-R:
-
+R: +tipo(public,private,etc.) verbo () 
+    +getPessoa()
 **27.	Como o construtor de uma classe pode ser diferenciado no diagrama de classe UML? Crie um exemplo.**<br />
-R:
+R: C
 
 **28.	Quais são os símbolos utilizados no diagrama de classe UML para representar os modificadores de acessos aos atributos e métodos? Crie um exemplo.**<br />
 R:
