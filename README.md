@@ -167,79 +167,111 @@ public class Cliente{
 ```
 **31. Desenvolva o código java das classes do apresentadas no diagrama de classes
 UML abaixo:**
-R:public class Produto{<br />
-  private String nome;<br />
+
+R:
+```java
+public class Produto{
+  private String nome;
+  
+  public Produto()
+    this.nome="kaue";
+  }
+  public String getNome(){
+    return nome;
+  }
+  public void setNome (String nome){
+    this.nome = nome
+  }
+  
+}
+------------------------------------
+public class Password{
+  private String value;
+ 
+  public Password(){
+    this.value="kaue";
+  }
+  public boolean isEqual(Password p){
+    return false;
+  }
+  
+}
+---------------------------------------
+public class Animal{
+  private boolean alive;
+  
+  public Animal(){
+    this.alive= true;
+  }
+  public boolean isAlive(){
+    return false;
+    }
   <br />
-  public Produto(){<br />
-    this.nome="kaue";<br />
-  }<br />
-  public String getNome(){<br />
-    return nome;<br />
-  }<br />
-  public void setNome (String nome){<br />
-    this.nome = nome<br />
-  }<br />
-  <br />
-}<br />
-------------------------------------<br />
-public class Password{<br />
-  private String value;<br />
-  <br />
-  public Password(){<br />
-    this.value="kaue";<br />
-  }<br />
-  public boolean isEqual(Password p){<br />
-    return false;<br />
-  }<br />
-  <br />
-}<br />
----------------------------------------<br />
-public class Animal{<br />
-  private boolean alive;<br />
-  <br />
-  public Animal(){<br />
-    this.alive= true;<br />
-  }<br />
-  public boolean isAlive(){<br />
-    return false;<br />
-    }<br />
-  <br />
-    private void die(){<br />
-  }<br />
-  <br />
-  }<br />
--------------------------------------<br />
+    private void die(){
+  }
+  
+  }
+-------------------------------------
+```
+**32. Desenvolva o diagrama de classe dos códigos Java abaixo. **
+R:
 
+Livro<br />
+-----------------------------<br />
+-nome: String<br />
+-----------------------------<br />
++getNome(nome): String<br />
++setNome(nome: String)<br />
 
+ContaCorrente<br />
+---------------------------<br />
+-saldo: double<br />
+----------------------------<br />
++sacar(double valor):0.0<br />
++depositar(valor)<br />
+-recalcularSaldo()<br />
+-----------------------------<br />
 
+Par<br />
+-----------------------------<br />
++chave: String<br />
++valor: String<br />
+-----------------------------<br />
+-----------------------------<br />
 
+Impressora<br />
+-----------------------------<br />
+-----------------------------<br />
++imprimir()
 
+**33.O que é o estado de um objeto? Cite um exemplo com a classe Aluno com
+os atributos nome, idade, matrícula e curso. Utilize o diagrama de estado de
+objeto.**
+R:O que define o Estado são os valores atribuídos aos atributos de um objeto. Diferentemente do Comportamento que são os métodos da classe.
+exemplo:
+Inicio     Nome         Idade        Matrícula         curso        Fim
+  o--------João----------20------------1001----------Matemática------o
 
+**34.Qual é o estado do objeto da classe Dog quando é inicializado? Desenvolva o
+diagrama de objetos.**
+R:
+Inicio     Nome         Idade          vivo      Fim
+  o--------?--------------?--------------?--------o
 
+**35.Qual é o estado do objeto dog no final da execução do método main? Desenvolva o diagrama de objetos.**
+R:
+Inicio     Nome         Idade          vivo      Fim
+o----------Spike---------10------------True--------o
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+**36.Qual é o estado do objeto pug e buldog após a execução da linha 6? Desenvolva
+o diagrama de objetos.**
+R:
+Inicio     Nome         Idade    Idade    Fim
+   o-----Floquinho-------2---------1-------o
+   
+**37.Analise o código abaixo. Verifique se existem problemas, caso sim, indique o
+problema e sugere as correções.**
+R: Não encontrei problemas
 
 
 
