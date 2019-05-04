@@ -248,25 +248,25 @@ Impressora<br />
 os atributos nome, idade, matrícula e curso. Utilize o diagrama de estado de
 objeto.**
 R:O que define o Estado são os valores atribuídos aos atributos de um objeto. Diferentemente do Comportamento que são os métodos da classe.
-exemplo:
-Inicio     Nome         Idade        Matrícula         curso        Fim
+exemplo:<br />
+Inicio     Nome         Idade        Matrícula         curso        Fim<br />
   o--------João----------20------------1001----------Matemática------o
 
 **34.Qual é o estado do objeto da classe Dog quando é inicializado? Desenvolva o
 diagrama de objetos.**
-R:
-Inicio     Nome         Idade          vivo      Fim
+R:<br />
+Inicio     Nome         Idade          vivo      Fim<br />
   o--------?--------------?--------------?--------o
 
 **35.Qual é o estado do objeto dog no final da execução do método main? Desenvolva o diagrama de objetos.**
-R:
-Inicio     Nome         Idade          vivo      Fim
+R:<br />
+Inicio     Nome         Idade          vivo      Fim<br />
 o----------Spike---------10------------True--------o
 
 **36.Qual é o estado do objeto pug e buldog após a execução da linha 6? Desenvolva
 o diagrama de objetos.**
-R:
-Inicio     Nome         Idade    Idade    Fim
+R:<br />
+Inicio     Nome         Idade    Idade    Fim<br />
    o-----Floquinho-------2---------1-------o
    
 **37.Analise o código abaixo. Verifique se existem problemas, caso sim, indique o
