@@ -117,19 +117,19 @@ ex: <<crete>> -Pessoa(nome:String, altura:Float):
 
 **29.	Considere a classe Cliente, com os atributos nome, email e telefone com os respectivos métodos getters e setters. Desenvolva o diagrama de classe UML.**<br />
 R:  
-     Cliente
-    ---------------------------
-    -nome:String
-    -email:String
-    -telefone:long
-    ----------------------------
-    +getNome():String
-    +setNome(nome:String)
-    +getEmail():String
-    +setEmail(email:String)
-    +getTelefone():long
-    +setTelefone(telefone:long)
-    ----------------------------
+     Cliente<br />
+    ---------------------------<br />
+    -nome:String<br />
+    -email:String<br />
+    -telefone:long<br />
+    ----------------------------<br />
+    +getNome():String<br />
+    +setNome(nome:String)<br />
+    +getEmail():String<br />
+    +setEmail(email:String)<br />
+    +getTelefone():long<br />
+    +setTelefone(telefone:long)<br />
+    ----------------------------<br />
     
 
 **30.	Considere a classe Cliente apresentada no Problema 29, e desenvolva o código Java correspondente.**<br />
@@ -167,48 +167,48 @@ public class Cliente{
 ```
 **31. Desenvolva o código java das classes do apresentadas no diagrama de classes
 UML abaixo:**
-R:public class Produto{
-  private String nome;
-  
-  public Produto(){
-    this.nome="kaue";
-  }
-  public String getNome(){
-    return nome;
-  }
-  public void setNome (String nome){
-    this.nome = nome
-  }
-  
-}
-------------------------------------
-public class Password{
-  private String value;
-  
-  public Password(){
-    this.value="kaue";
-  }
-  public boolean isEqual(Password p){
-    return false;
-  }
-  
-}
----------------------------------------
-public class Animal{
-  private boolean alive;
-  
-  public Animal(){
-    this.alive= true;
-  }
-  public boolean isAlive(){
-    return false;
-    }
-  
-    private void die(){
-  }
-  
-  }
--------------------------------------
+R:public class Produto{<br />
+  private String nome;<br />
+  <br />
+  public Produto(){<br />
+    this.nome="kaue";<br />
+  }<br />
+  public String getNome(){<br />
+    return nome;<br />
+  }<br />
+  public void setNome (String nome){<br />
+    this.nome = nome<br />
+  }<br />
+  <br />
+}<br />
+------------------------------------<br />
+public class Password{<br />
+  private String value;<br />
+  <br />
+  public Password(){<br />
+    this.value="kaue";<br />
+  }<br />
+  public boolean isEqual(Password p){<br />
+    return false;<br />
+  }<br />
+  <br />
+}<br />
+---------------------------------------<br />
+public class Animal{<br />
+  private boolean alive;<br />
+  <br />
+  public Animal(){<br />
+    this.alive= true;<br />
+  }<br />
+  public boolean isAlive(){<br />
+    return false;<br />
+    }<br />
+  <br />
+    private void die(){<br />
+  }<br />
+  <br />
+  }<br />
+-------------------------------------<br />
 
 
 
